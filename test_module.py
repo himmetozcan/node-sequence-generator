@@ -15,8 +15,8 @@ class TestNodeSeqSystem(unittest.TestCase):
         query = "When a button is clicked, fetch data and display it in a modal"
         result, validated, debug_output = process_query(
             query,  
-            max_attempts=7,
-            validation_threshold=4,
+            max_attempts=10,
+            validation_threshold=5,
             selected_model=self.model,
             silent=True
         )

@@ -107,14 +107,14 @@ with gr.Blocks(css="""
         with gr.Accordion("Advanced Settings", open=False):
             with gr.Row():
                 max_attempts_input = gr.Number(
-                    value=7,
+                    value=10,
                     label="Max Attempts",
                     minimum=1,
                     maximum=20,
                     step=1
                 )
                 validation_threshold_input = gr.Number(
-                    value=4,
+                    value=5,
                     label="Validation Threshold",
                     minimum=1,
                     maximum=10,

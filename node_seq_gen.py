@@ -532,8 +532,8 @@ def main():
         print(f"{i+1}. {model}")
     print(f"\nCurrently using: {selected_model}")
     
-    max_attempts = 7
-    validation_threshold = 4
+    max_attempts = 10
+    validation_threshold = 5
     
     while True:
         user_input = input("\nDescribe what you want to achieve (or type 'model <number>' to switch models): ").strip()

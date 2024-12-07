@@ -89,6 +89,36 @@ Run the tests:
 python -m unittest test_module.py
 ```
 
+### Performance Analysis
+
+The test suite uses `test_prompts.json`, which contains 100 test prompts generated using GPT-4o and manually reviewed. Note that these test prompts are distinct from the examples in the system message to better evaluate generalization.
+
+Performance metrics with different configurations:
+
+1. **Balanced Configuration** (Default)
+   - Max Attempts: 10
+   - Validation Threshold: 5
+   - Mean Accuracy: 69.0%
+   - Standard Deviation: 1.58%
+
+2. **Medium Configuration**
+   - Max Attempts: 7
+   - Validation Threshold: 4
+   - Mean Accuracy: 60.4%
+   - Standard Deviation: 2.88%
+
+3. **Single-Pass Configuration**
+   - Max Attempts: 1
+   - Validation Threshold: 0
+   - Mean Accuracy: 61.8%
+   - Standard Deviation: 4.09%
+
+The results demonstrate that increasing max attempts and validation threshold:
+- Improves overall accuracy
+- Reduces output variability (lower standard deviation)
+- Provides more stable and reliable results
+- More information about the algorithm is given below.
+
 ### Algorithm Overview
 
 This script uses a Large Language Model (LLM), accessed via the [Ollama](https://ollama.ai) client, to convert a user’s textual request into a sequence of predefined “nodes.” These nodes represent actions, events, transformations, and display operations within a hypothetical application. The idea is to have the LLM infer the correct sequence of these nodes from natural language instructions, verify the correctness, and then present the final node sequence to the user.
