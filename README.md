@@ -14,7 +14,7 @@ Demo for translating natural language instructions into structured sequences of 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/node-sequence-generator.git
+   git clone https://github.com/himmetozcan/node-sequence-generator.git
    cd node-sequence-generator
    ```
 
