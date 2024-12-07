@@ -77,9 +77,9 @@ Demo for translating natural language instructions into structured sequences of 
 
 ## Testing
 
-Run the test suite to validate functionality:
+Run the tests:
 ```bash
-python -m unittest discover
+python -m unittest test_module.py
 ```
 
 ### Algorithm Overview
