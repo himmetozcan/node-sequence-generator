@@ -1,0 +1,403 @@
+[
+    {
+      "User Prompt": "Fetch data from the server, map it to a simplified schema, and then show it on the screen.",
+      "Correct Output": ["FetchData","Map","Show"]
+    },
+    {
+      "User Prompt": "Send a request, filter the response for items with price > 100, and then render a chart with those items.",
+      "Correct Output": ["SendRequest","Filter","RenderChart"]
+    },
+    {
+      "User Prompt": "Assign a value to a variable, then branch logic based on that variable, and display a modal if true.",
+      "Correct Output": ["Assign","Branch","DisplayModal"]
+    },
+    {
+      "User Prompt": "Fetch data, reduce the results to a single count, and then log that count.",
+      "Correct Output": ["FetchData","Reduce","Log"]
+    },
+    {
+      "User Prompt": "Store data locally, then show the stored data to the user.",
+      "Correct Output": ["StoreData","Show"]
+    },
+    {
+      "User Prompt": "Fetch data, group the results by category, then highlight the category with the most items.",
+      "Correct Output": ["FetchData","GroupBy","Highlight"]
+    },
+    {
+      "User Prompt": "Send a request, split the response into two parts, and then show the first part.",
+      "Correct Output": ["SendRequest","Split","Show"]
+    },
+    {
+      "User Prompt": "Fetch data, sort the results alphabetically, and then display a modal with the sorted list.",
+      "Correct Output": ["FetchData","Sort","DisplayModal"]
+    },
+    {
+      "User Prompt": "Send a request, cache the returned data, and then update the display with this cached data.",
+      "Correct Output": ["SendRequest","CacheData","Update"]
+    },
+    {
+      "User Prompt": "Fetch data, branch logic to check if the result is empty, if empty alert the user, otherwise show data.",
+      "Correct Output": ["FetchData","Branch","Alert","Show"]
+    },
+    {
+      "User Prompt": "Navigate to a new page after fetching data and logging the results.",
+      "Correct Output": ["FetchData","Log","Navigate"]
+    },
+    {
+      "User Prompt": "Play a sound when data is fetched, then after a delay pause the sound.",
+      "Correct Output": ["FetchData","PlaySound","PauseSound"]
+    },
+    {
+      "User Prompt": "Fetch data, map to a simpler structure, filter out duplicates, and then show the result.",
+      "Correct Output": ["FetchData","Map","Filter","Show"]
+    },
+    {
+      "User Prompt": "Send a request, merge the response with local data, then render a chart from the merged result.",
+      "Correct Output": ["SendRequest","Merge","RenderChart"]
+    },
+    {
+      "User Prompt": "Fetch data, update the data entries with new fields, then show the updated data.",
+      "Correct Output": ["FetchData","UpdateData","Show"]
+    },
+    {
+      "User Prompt": "Delete outdated data, then fetch fresh data and display it.",
+      "Correct Output": ["DeleteData","FetchData","Show"]
+    },
+    {
+      "User Prompt": "Fetch data, sort it by date, then highlight the most recent entry.",
+      "Correct Output": ["FetchData","Sort","Highlight"]
+    },
+    {
+      "User Prompt": "Store data, branch logic to decide if we show or hide the data based on a condition.",
+      "Correct Output": ["StoreData","Branch","Show","Hide"]
+    },
+    {
+      "User Prompt": "Fetch data, map response fields, cache the mapped data, then show it.",
+      "Correct Output": ["FetchData","Map","CacheData","Show"]
+    },
+    {
+      "User Prompt": "On receiving new data, filter out inactive users, then display a modal with active users.",
+      "Correct Output": ["Filter","DisplayModal"]
+    },
+    {
+      "User Prompt": "Send a request, reduce the response to a single total, then display that total on the screen.",
+      "Correct Output": ["SendRequest","Reduce","Show"]
+    },
+    {
+      "User Prompt": "Fetch data, group by location, sort each group by name, and then show the sorted groups.",
+      "Correct Output": ["FetchData","GroupBy","Sort","Show"]
+    },
+    {
+      "User Prompt": "Map the given data, then alert the user if there's no result, otherwise update the display.",
+      "Correct Output": ["Map","Branch","Alert","Update"]
+    },
+    {
+      "User Prompt": "Split the fetched data into multiple lists, then render a chart for one of those lists.",
+      "Correct Output": ["FetchData","Split","RenderChart"]
+    },
+    {
+      "User Prompt": "Send a request, highlight an element based on a condition in the response, then show the updated UI.",
+      "Correct Output": ["SendRequest","Branch","Highlight","Show"]
+    },
+    {
+      "User Prompt": "Fetch data, assign a key value from the data to a variable, then log the assigned value.",
+      "Correct Output": ["FetchData","Assign","Log"]
+    },
+    {
+      "User Prompt": "Store data, filter it for entries with a specific tag, then display a modal with the filtered results.",
+      "Correct Output": ["StoreData","Filter","DisplayModal"]
+    },
+    {
+      "User Prompt": "Fetch data, reduce it to a sum, and then navigate to a results page.",
+      "Correct Output": ["FetchData","Reduce","Navigate"]
+    },
+    {
+      "User Prompt": "Send a request, map the returned items, sort them by rank, then show the sorted list.",
+      "Correct Output": ["SendRequest","Map","Sort","Show"]
+    },
+    {
+      "User Prompt": "Fetch data, merge it with another data set, then render a chart from the combined data.",
+      "Correct Output": ["FetchData","Merge","RenderChart"]
+    },
+    {
+      "User Prompt": "Filter the existing data to remove duplicates, then show the cleaned list.",
+      "Correct Output": ["Filter","Show"]
+    },
+    {
+      "User Prompt": "Fetch data, branch logic to check if count is above a threshold, if yes display a modal, else log a warning.",
+      "Correct Output": ["FetchData","Branch","DisplayModal","Log"]
+    },
+    {
+      "User Prompt": "Send a request, store the response data, then update the display with that stored data.",
+      "Correct Output": ["SendRequest","StoreData","Update"]
+    },
+    {
+      "User Prompt": "Fetch data, map it to remove unnecessary fields, then show the simplified dataset.",
+      "Correct Output": ["FetchData","Map","Show"]
+    },
+    {
+      "User Prompt": "Cache some previously fetched data, branch logic to verify its size, then highlight the result.",
+      "Correct Output": ["CacheData","Branch","Highlight"]
+    },
+    {
+      "User Prompt": "Fetch data, split it by categories, display the first category, and hide the rest.",
+      "Correct Output": ["FetchData","Split","Show","Hide"]
+    },
+    {
+      "User Prompt": "Send a request, group the response by type, sort each group, then display it.",
+      "Correct Output": ["SendRequest","GroupBy","Sort","Show"]
+    },
+    {
+      "User Prompt": "Fetch data, reduce the list to a single metric, then alert the user with that metric.",
+      "Correct Output": ["FetchData","Reduce","Alert"]
+    },
+    {
+      "User Prompt": "Store data, map the stored values, and then render a chart of those values.",
+      "Correct Output": ["StoreData","Map","RenderChart"]
+    },
+    {
+      "User Prompt": "Fetch data, filter it for top-rated items, then update the display with those items.",
+      "Correct Output": ["FetchData","Filter","Update"]
+    },
+    {
+      "User Prompt": "Send a request, assign a field of the response to a variable, then show that variable's data.",
+      "Correct Output": ["SendRequest","Assign","Show"]
+    },
+    {
+      "User Prompt": "Fetch data, sort by a certain attribute, then highlight the top three results.",
+      "Correct Output": ["FetchData","Sort","Highlight"]
+    },
+    {
+      "User Prompt": "Merge two datasets, filter the merged result for recent entries, then navigate to a summary page.",
+      "Correct Output": ["Merge","Filter","Navigate"]
+    },
+    {
+      "User Prompt": "Store data, reduce it to a single average value, and then display a modal with that average.",
+      "Correct Output": ["StoreData","Reduce","DisplayModal"]
+    },
+    {
+      "User Prompt": "Send a request, map the items, cache the mapped items, then highlight the best item.",
+      "Correct Output": ["SendRequest","Map","CacheData","Highlight"]
+    },
+    {
+      "User Prompt": "Fetch data, group by category, then show each category in a modal.",
+      "Correct Output": ["FetchData","GroupBy","DisplayModal"]
+    },
+    {
+      "User Prompt": "Map local data, branch logic to decide if we show it or alert the user, then execute accordingly.",
+      "Correct Output": ["Map","Branch","Show","Alert"]
+    },
+    {
+      "User Prompt": "Fetch data, split it into chunks, show the first chunk, and hide the rest.",
+      "Correct Output": ["FetchData","Split","Show","Hide"]
+    },
+    {
+      "User Prompt": "Send a request, reduce the items to a maximum value, then log that maximum.",
+      "Correct Output": ["SendRequest","Reduce","Log"]
+    },
+    {
+      "User Prompt": "Fetch data, filter by a date range, sort by name, then render a chart of filtered items.",
+      "Correct Output": ["FetchData","Filter","Sort","RenderChart"]
+    },
+    {
+      "User Prompt": "Store data, update a subset of that data, and then show the updated subset.",
+      "Correct Output": ["StoreData","UpdateData","Show"]
+    },
+    {
+      "User Prompt": "Fetch data, merge it with cached data, branch logic to decide if we navigate or alert the user.",
+      "Correct Output": ["FetchData","Merge","Branch","Navigate","Alert"]
+    },
+    {
+      "User Prompt": "Fetch data, then display it directly on the screen.",
+      "Correct Output": ["FetchData","Show"]
+    },
+    {
+      "User Prompt": "Send a request, then display a modal with the returned data.",
+      "Correct Output": ["SendRequest","DisplayModal"]
+    },
+    {
+      "User Prompt": "Fetch data, sort it by rating, and then show the top 5 entries.",
+      "Correct Output": ["FetchData","Sort","Show"]
+    },
+    {
+      "User Prompt": "Store data, then highlight a particular element representing that data.",
+      "Correct Output": ["StoreData","Highlight"]
+    },
+    {
+      "User Prompt": "Fetch data, map it to a cleaner format, then update the display with this new format.",
+      "Correct Output": ["FetchData","Map","Update"]
+    },
+    {
+      "User Prompt": "Send a request, branch logic to check a condition in the response, if true show data, else alert.",
+      "Correct Output": ["SendRequest","Branch","Show","Alert"]
+    },
+    {
+      "User Prompt": "Fetch data, filter by availability, then render a chart of available items.",
+      "Correct Output": ["FetchData","Filter","RenderChart"]
+    },
+    {
+      "User Prompt": "Cache some data, then show the cached data on the screen.",
+      "Correct Output": ["CacheData","Show"]
+    },
+    {
+      "User Prompt": "Fetch data, reduce it to a single value, and then navigate to a detail page.",
+      "Correct Output": ["FetchData","Reduce","Navigate"]
+    },
+    {
+      "User Prompt": "Send a request, map the response fields to labels, and show the labeled data.",
+      "Correct Output": ["SendRequest","Map","Show"]
+    },
+    {
+      "User Prompt": "Fetch data, group by a certain attribute, and then update the display with grouped results.",
+      "Correct Output": ["FetchData","GroupBy","Update"]
+    },
+    {
+      "User Prompt": "Store data, split it into separate lists, and then show the first list.",
+      "Correct Output": ["StoreData","Split","Show"]
+    },
+    {
+      "User Prompt": "Send a request, reduce the returned array to a sum, and log that sum.",
+      "Correct Output": ["SendRequest","Reduce","Log"]
+    },
+    {
+      "User Prompt": "Fetch data, map to a compressed form, cache that compressed data, then display it.",
+      "Correct Output": ["FetchData","Map","CacheData","Show"]
+    },
+    {
+      "User Prompt": "Fetch data, filter to only 'featured' items, and highlight those items.",
+      "Correct Output": ["FetchData","Filter","Highlight"]
+    },
+    {
+      "User Prompt": "Merge two data sources, sort the merged results, and then show them.",
+      "Correct Output": ["Merge","Sort","Show"]
+    },
+    {
+      "User Prompt": "Send a request, group the results, and display a modal with grouped categories.",
+      "Correct Output": ["SendRequest","GroupBy","DisplayModal"]
+    },
+    {
+      "User Prompt": "Fetch data, branch logic to determine if items are above a threshold, if yes update, else alert.",
+      "Correct Output": ["FetchData","Branch","Update","Alert"]
+    },
+    {
+      "User Prompt": "Store data, filter it for a specific attribute, then render a chart of the filtered set.",
+      "Correct Output": ["StoreData","Filter","RenderChart"]
+    },
+    {
+      "User Prompt": "Fetch data, split the result, sort one part, and show that sorted part.",
+      "Correct Output": ["FetchData","Split","Sort","Show"]
+    },
+    {
+      "User Prompt": "Send a request, highlight certain elements, then update the display.",
+      "Correct Output": ["SendRequest","Highlight","Update"]
+    },
+    {
+      "User Prompt": "Map local data, reduce it to a summary, and then show the summary.",
+      "Correct Output": ["Map","Reduce","Show"]
+    },
+    {
+      "User Prompt": "Fetch data, cache the fetched data, and then display a modal of the cached content.",
+      "Correct Output": ["FetchData","CacheData","DisplayModal"]
+    },
+    {
+      "User Prompt": "Merge two data sets, branch logic to decide if we show or hide them, then execute accordingly.",
+      "Correct Output": ["Merge","Branch","Show","Hide"]
+    },
+    {
+      "User Prompt": "Send a request, map its data, filter for premium entries, then show them.",
+      "Correct Output": ["SendRequest","Map","Filter","Show"]
+    },
+    {
+      "User Prompt": "Fetch data, sort by date, reduce the sorted list to a single value, then log that value.",
+      "Correct Output": ["FetchData","Sort","Reduce","Log"]
+    },
+    {
+      "User Prompt": "Store data, update it with new fields, then highlight an updated element.",
+      "Correct Output": ["StoreData","UpdateData","Highlight"]
+    },
+    {
+      "User Prompt": "Fetch data, map it, branch logic to decide whether to display a modal or navigate away.",
+      "Correct Output": ["FetchData","Map","Branch","DisplayModal","Navigate"]
+    },
+    {
+      "User Prompt": "Send a request, filter the returned items by category, then update the display with those items.",
+      "Correct Output": ["SendRequest","Filter","Update"]
+    },
+    {
+      "User Prompt": "Fetch data, group it by region, reduce each group to a total, and then show those totals.",
+      "Correct Output": ["FetchData","GroupBy","Reduce","Show"]
+    },
+    {
+      "User Prompt": "Store data, split the stored list, highlight the first subset, and show it.",
+      "Correct Output": ["StoreData","Split","Highlight","Show"]
+    },
+    {
+      "User Prompt": "Merge local data with fetched data, cache the merged result, then render a chart.",
+      "Correct Output": ["Merge","FetchData","CacheData","RenderChart"]
+    },
+    {
+      "User Prompt": "Send a request, map its fields, branch on a condition, if true show a modal, else alert.",
+      "Correct Output": ["SendRequest","Map","Branch","DisplayModal","Alert"]
+    },
+    {
+      "User Prompt": "When the user clicks a button, fetch data from the server and display it on the screen.",
+      "Correct Output": ["OnClick","FetchData","Show"]
+    },
+    {
+      "User Prompt": "If a scheduled timer triggers, send a request to the API and then render a chart with the response.",
+      "Correct Output": ["OnTimer","SendRequest","RenderChart"]
+    },
+    {
+      "User Prompt": "When the user presses a key, assign the entered value to a variable, then log that variable.",
+      "Correct Output": ["OnKeyPress","Assign","Log"]
+    },
+    {
+      "User Prompt": "If the mouse pointer enters an element, show a tooltip, wait a brief delay, then hide it.",
+      "Correct Output": ["OnMouseEnter","Tooltip","Delay","Hide"]
+    },
+    {
+      "User Prompt": "When the mouse pointer leaves a particular area, play a short sound, pause for a moment, then stop the sound.",
+      "Correct Output": ["OnMouseLeave","PlaySound","Delay","StopSound"]
+    },
+    {
+      "User Prompt": "If a variable's value changes, fetch fresh data, filter the results, and highlight the most important item.",
+      "Correct Output": ["OnVariableChange","FetchData","Filter","Highlight"]
+    },
+    {
+      "User Prompt": "Whenever the window is resized, fetch new data, merge it with existing data, and update the displayed information.",
+      "Correct Output": ["OnWindowResize","FetchData","Merge","Update"]
+    },
+    {
+      "User Prompt": "When the user releases a key, save the current state, then show that saved information.",
+      "Correct Output": ["OnKeyRelease","Save","Show"]
+    },
+    {
+      "User Prompt": "When the user clicks on a button, evaluate a condition; if true navigate to another page, otherwise show an alert.",
+      "Correct Output": ["OnClick","Branch","Navigate","Alert"]
+    },
+    {
+      "User Prompt": "If a timer event occurs, fetch data, sort the records, and display them in a modal.",
+      "Correct Output": ["OnTimer","FetchData","Sort","DisplayModal"]
+    },
+    {
+      "User Prompt": "As soon as the mouse enters an element, map the incoming data to a simpler format, then show it.",
+      "Correct Output": ["OnMouseEnter","Map","Show"]
+    },
+    {
+      "User Prompt": "If a variable changes its value, reduce the associated dataset to a single metric, and then log this metric.",
+      "Correct Output": ["OnVariableChange","Reduce","Log"]
+    },
+    {
+      "User Prompt": "Whenever the window is resized, cache the current data and then render a chart using this cached data.",
+      "Correct Output": ["OnWindowResize","CacheData","RenderChart"]
+    },
+    {
+      "User Prompt": "When the user clicks a button, delete certain data entries and then show the updated content on the screen.",
+      "Correct Output": ["OnClick","Delete","Show"]
+    },
+    {
+      "User Prompt": "If the user presses a key, fetch data, group the results by category, and update the displayed information.",
+      "Correct Output": ["OnKeyPress","FetchData","GroupBy","Update"]
+    }
+]
+  
