@@ -168,7 +168,7 @@ This script uses a Large Language Model (LLM), accessed via the [Ollama](https:/
    Results are tallied, printed to the console, and saved to a CSV file. This test mode helps ensure that the LLM model and prompt configuration produce consistent and correct outputs over a range of predefined scenarios.
 
 7. **Interactive Mode**:
-   When run interactively (simply running `python node_seq_gen.py`):
+   When run interactively (simply running `python node_seq_gen.py`):open windows after soun
    - The user can switch between different predefined models.
    - The user can type in requests and see the generated node sequences.
    - The user can run the test suite to see how well the LLM performs on known test cases.
@@ -184,10 +184,10 @@ This script uses a Large Language Model (LLM), accessed via the [Ollama](https:/
    `{"sequence": ["OnClick", "FetchData", "DisplayModal"]}`
    
 3. **Validation**:  
-   The script checks that all nodes (`OnClick`, `FetchData`, `DisplayModal`) are allowed. Then it asks the LLM if this sequence fulfills the user request. If `valid: true` returns, great—done. Otherwise, it retries.
+   The script checks that all nodes (`OnClick`, `FetchData`, `DisplayModal`) are allowed. Then it asks the LLM if this sequence fulfills the user request. Even if `valid: true` returns, it continues validating until it reaches the validation threshold (by default 5 successful validations). If it fails validation at any point, it starts a new attempt. This multiple-validation approach helps ensure consistency and reliability of the generated sequences.
 
 4. **Final Output**:  
-   The sequence is printed out for the user, and if it passed validation, the user is confident it matches the intended functionality.
+   If the validation threshold is met, the sequence is printed out for the user with full confidence. However, if no sequence passes the full validation process after all attempts, the system returns the most frequently generated sequence with a warning message: "Note: This sequence did not pass full validation but was the most frequent result". This fallback ensures users always get a result while being transparent about the validation status.
 
 
 
