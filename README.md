@@ -32,6 +32,13 @@ Demo for translating natural language instructions into structured sequences of 
    ollama pull qwen2.5-coder:7b
    ```
 
+### Model Specifications
+- **Model Size**: 7.6B parameters
+- **Quantization**: Q4_K_M (4-bit quantization with medium accuracy)
+- **VRAM Requirements**: ~6GB VRAM
+- **Context Length**: 32,768 tokens
+- **Embedding Length**: 3,584
+
 4. Choose your preferred mode:
 
    **A. Gradio Web Interface**:
